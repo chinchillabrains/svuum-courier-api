@@ -1,0 +1,30 @@
+{
+    "name": "chinchillabrains/svuum-courier-api",
+    "description": "PHP Client for Svuum Courier API.",
+    "keywords": ["Svuum", "courier", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilias Papadopoulos",
+            "email": "chinchillabrains@gmail.com"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Chinchillabrains\\Svuumapi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chinchillabrains\\Svuumapi\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
